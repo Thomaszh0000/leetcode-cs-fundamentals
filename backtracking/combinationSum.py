@@ -7,8 +7,10 @@ class Solution:
     approach :
     Create a DP array with length target + 1.
     dp[i] store all combinations that can extend the current sum i to reach the target.
-    Then process each candidate and iterate backward (from dp[target] to dp[0]). Process iteration of candidates in outer loop, iteration of DP in inner loop to ensure consistent candidate order, avoiding duplicate combinations.
-    If candidate + i <= target, add all combinations stored in dp[i + candidate] for all candidates to dp[i]. (dp[-1] will therefore be initialized to empty combination)
+    Then process each candidate and iterate backward (from dp[target] to dp[0]). 
+    Process iteration of candidates in outer loop, iteration of DP in inner loop to ensure consistent candidate order, avoiding duplicate combinations.
+    If candidate + i <= target, 
+    add all combinations stored in dp[i + candidate] for all candidates to dp[i] (dp[-1] will therefore be initialized to empty combination). 
     Finally, dp[0] will be our answer.
     """
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
