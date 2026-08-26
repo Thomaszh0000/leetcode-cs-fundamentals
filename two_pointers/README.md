@@ -4,7 +4,7 @@ Problems focused on pointer movement, sorted-array reasoning, duplicate handling
 
 | Problem | Difficulty | Pattern | Status |
 |---|---|---|---|
-| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Opposite-end pointers | Planned |
+| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Opposite-end pointers | Complete |
 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | Sorting plus two pointers | Planned |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | Greedy pointer movement | Planned |
 
