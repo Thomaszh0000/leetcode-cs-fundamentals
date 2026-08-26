@@ -18,9 +18,11 @@ class Solution:
         (the reason we use i is that node object can't be compared but integer i can).
         We then instantiate a ListNode object dummy, and points pointer "cur" to dummy.
         Use a while-loop : while heap is not empty list, 
-        we will use heappop to retrieve the smallest node, its value and index (the one created when we created heap using enumeration). We will then set cur.next to node;
-        if node.next exists, we will set then use heappush to push the next node's value, index (will therefore be the same one), node object to heap; after that, set cur to cur.next.
-        Finally, return our answer dummy.next .
+        we will use heappop to retrieve the smallest node, its value and index (the one created when we created heap using enumeration). 
+        We will then set cur.next to node;
+        if node.next exists, we will set then use heappush to push the next node's value, index (will therefore be the same one), 
+        node object to heap; after that, set cur to cur.next.
+        Finally, return our answer dummy.next.
         """
         heap = []
         for i, node in enumerate(lists):
