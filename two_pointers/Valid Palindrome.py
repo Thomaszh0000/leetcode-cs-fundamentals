@@ -7,8 +7,14 @@ class Solution:
         problem : https://leetcode.com/problems/valid-palindrome/
         approach :
         We create two pointers left and right, and initialize them to 0 and n - 1 separately.
-        Use while-loop (outer while loop) : while left < right -> while left < right (inner while loop) and not (ord("0") <= ord(s[left]) <= ord("9")) and not (ord("a") <= ord(s[left]) <= ord("z")) and not (ord("A") <= ord(s[left]) <= ord("Z")), we will add one to left (we wrote ord("0") <= ord(s[left]) <= ord("9") to ensure that s[left] is any of 0 - 9, same idea of ord("a") <= ord(s[left]) <= ord("z") and ord("A") <= ord(s[left]) <= ord("Z")); after that, we are sure that s[left] is an alphanumeric character. We then do same thing to right; then we compare s[left].lower() and s[right].lower(), if they are the same, increment left and decrement right (to move forward and prevent infinite loop); if it is not, return False.
-        If we break the outer while, it means we've checked all Alphanumeric characters, so we will then return True.
+        Use while-loop (outer while loop) : 
+        while left < right -> 
+        while left < right (inner while loop) and not (ord("0") <= ord(s[left]) <= ord("9")) and not (ord("a") <= ord(s[left]) <= ord("z")) and not (ord("A") <= ord(s[left]) <= ord("Z")), 
+        we will increment left (we wrote ord("0") <= ord(s[left]) <= ord("9") to ensure that s[left] is any of 0 - 9, 
+        same idea of ord("a") <= ord(s[left]) <= ord("z") and ord("A") <= ord(s[left]) <= ord("Z")); after that, 
+        we are sure that s[left] is an alphanumeric character. We then do same thing to right ;we then  compare s[left].lower() and s[right].lower(), 
+        if they are the same, increment left and decrement right (to move forward and prevent infinite loop); if it is not, return False.
+        If we break the outer while, it means we've checked all alphanumeric characters, so we will then return True.
         Note :
         We can also use isalnum(), which is implemented in C and is generally faster.
         """
