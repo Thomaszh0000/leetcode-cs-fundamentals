@@ -7,7 +7,7 @@ Problems focused on pointer manipulation, dummy nodes, reversing links, and merg
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | Pointer reversal | Complete |
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | Dummy node and carry handling | Complete |
 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | Middle finding, reverse, merge | Complete |
-| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | Heap or divide and conquer | Planned |
+| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | Heap or divide and conquer | Complete |
 
 ## Focus
 
