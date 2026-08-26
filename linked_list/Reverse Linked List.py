@@ -12,7 +12,8 @@ class Solution:
         approach :
         If head does not exist, we will just return None.
         If head exists, we will keep track of two pointer: prev and cur, which are initialized to None and head seperately.
-        Then we use a while-loop for reversation : while cur exist, we use temp to store cur.next, then set cur.next to prev, we then set prev to cur and cur to temp.
+        Then we use a while-loop for reversation : while cur exist, we use temp to store cur.next, then set cur.next to prev, 
+        we then set prev to cur and cur to temp.
         Finally, we'll return our answer prev(since cur will be None at this time and cur will be the last one).
         """
         if not head:
