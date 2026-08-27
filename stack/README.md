@@ -5,7 +5,7 @@ Problems focused on last-in-first-out logic, expression evaluation, and simple d
 | Problem | Difficulty | Pattern | Status |
 |---|---|---|---|
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | Matching stack | Complete |
-| [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | Stack design with auxiliary minimum | Planned |
+| [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | Stack design with auxiliary minimum | Complete |
 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | Operand stack | Planned |
 
 ## Focus
