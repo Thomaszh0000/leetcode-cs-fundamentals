@@ -5,7 +5,7 @@ Problems focused on maintaining a moving window, updating constraints, and avoid
 | Problem | Difficulty | Pattern | Status |
 |---|---|---|---|
 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | Window with seen characters | Complete |
-| [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | Window invariant with max frequency | Planned |
+| [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | Window invariant with max frequency | Complete |
 
 ## Focus
 
