@@ -4,6 +4,7 @@ class Solution:
         n = length of s
         time complexity : O(n)
         space complexity : O(1)
+        problem : https://leetcode.com/problems/longest-repeating-character-replacement/
         approach : 
         Window :
         Keep track of four integers, max_count (the highest frequent character's frequency in window so far), left (left edge of window), 
