@@ -1,4 +1,7 @@
 import bisect
+from typing import List
+
+
 class Solution:
     """
     time complexity : O(n log n)
