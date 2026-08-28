@@ -7,6 +7,3 @@ Problems focused on traversal, breadth-first search, and binary search tree vali
 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | BFS with queue | Complete |
 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | DFS with value bounds | Complete |
 
-## Focus
-
-This section is about choosing the correct traversal strategy and carrying the right state through recursion or queues.
