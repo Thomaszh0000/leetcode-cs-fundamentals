@@ -8,7 +8,3 @@ Core problems for hash maps, frequency counting, prefix products, and array-base
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | Hash map grouping | Complete |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | Frequency map / heap or bucket sort | Complete |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | Prefix and suffix products | Complete |
-
-## Focus
-
-This section is about recognizing when a direct array scan is not enough and when a map, set, or prefix structure makes the solution cleaner.
