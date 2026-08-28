@@ -8,6 +8,3 @@ Problems focused on pointer movement, sorted-array reasoning, duplicate handling
 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | Sorting plus two pointers | Complete |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | Greedy pointer movement | Complete |
 
-## Focus
-
-This section is about explaining why moving one pointer preserves correctness instead of trying every possible pair.
