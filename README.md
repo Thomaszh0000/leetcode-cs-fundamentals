@@ -1,12 +1,8 @@
 # leetcode-cs-fundamentals
 
-A curated LeetCode practice repository focused on core data structures, algorithms, and software engineering interview fundamentals.
+A LeetCode practice repository focused on core data structures, algorithms, and software engineering interview fundamentals.
 
-This repository is not meant to be a dump of every problem I have solved. It highlights a balanced 30-problem set that I can explain, reproduce, and use to strengthen fundamentals for STEP/SWE internship preparation.
-
-## Purpose
-
-The goal is to practice writing clean, readable, and explainable solutions. For each problem, I aim to understand the pattern, edge cases, and time/space complexity rather than memorizing code.
+This repository is not meant to be a dump of every problem I have solved. It highlights a balanced 30-problem set that I can explain, reproduce, and use to strengthen fundamentals for internship preparation.
 
 ## Difficulty Distribution
 
@@ -49,7 +45,7 @@ The goal is to practice writing clean, readable, and explainable solutions. For 
 | 26 | [Coin Change](https://leetcode.com/problems/coin-change/) | Medium | Dynamic Programming | `dynamic_programming` |
 | 27 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | Dynamic Programming | `dynamic_programming` |
 | 28 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | Dynamic Programming | `dynamic_programming` |
-| 29 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | Hard | Dynamic Programming | `dynamic_programming` |
+| 29 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | Medium | Dynamic Programming | `dynamic_programming` |
 | 30 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | Backtracking | `backtracking` |
 
 ## Folder Structure
@@ -80,7 +76,3 @@ Each solution should eventually include:
 - Space complexity
 - Clean Python implementation
 - Notes on edge cases or mistakes learned
-
-## Why This Repo Exists
-
-In an AI-assisted coding era, a LeetCode repository is only useful if it shows real understanding. The value is not copying many solutions, but being able to explain the algorithm, rewrite it without help, and reason about complexity and edge cases.
